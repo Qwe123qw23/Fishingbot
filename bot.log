@@ -1,0 +1,424 @@
+nohup: ignoring input
+2025-08-19 04:10:44,020 - __main__ - INFO - Telegram bot işə başlayır...
+2025-08-19 04:10:44,309 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getMe "HTTP/1.1 200 OK"
+2025-08-19 04:10:44,393 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-19 04:10:44,394 - telegram.ext.Application - INFO - Application started
+2025-08-19 04:10:54,653 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:11:04,743 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:11:14,832 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:11:24,917 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:11:35,018 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:11:45,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:11:55,188 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:12:05,274 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:12:09,491 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:12:09,779 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/sendMessage "HTTP/1.1 200 OK"
+2025-08-19 04:12:15,704 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:12:16,009 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/sendMessage "HTTP/1.1 200 OK"
+2025-08-19 04:12:18,415 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:12:18,555 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/sendMessage "HTTP/1.1 200 OK"
+2025-08-19 04:12:28,510 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:12:38,595 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:12:48,682 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:12:58,767 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:13:08,855 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:13:18,940 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:13:29,026 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:13:39,112 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:13:49,199 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:13:59,285 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:14:09,373 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:14:19,459 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:14:29,550 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:14:39,635 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:14:49,721 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:14:59,824 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:15:09,909 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:15:19,994 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:15:30,081 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:15:40,168 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:15:50,252 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 200 OK"
+2025-08-19 04:15:56,781 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 409 Conflict"
+2025-08-19 04:15:56,782 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 670, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4611, in get_updates
+    await self._post(
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 374, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-08-19 04:16:01,961 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 409 Conflict"
+2025-08-19 04:16:01,961 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 670, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4611, in get_updates
+    await self._post(
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 374, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-08-19 04:16:08,147 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 409 Conflict"
+2025-08-19 04:16:08,148 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 670, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4611, in get_updates
+    await self._post(
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 374, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-08-19 04:16:14,579 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 409 Conflict"
+2025-08-19 04:16:14,579 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 670, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4611, in get_updates
+    await self._post(
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 374, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-08-19 04:16:22,638 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 409 Conflict"
+2025-08-19 04:16:22,638 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 670, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4611, in get_updates
+    await self._post(
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 374, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-08-19 04:16:33,314 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 409 Conflict"
+2025-08-19 04:16:33,314 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 670, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4611, in get_updates
+    await self._post(
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 374, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-08-19 04:16:45,285 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 409 Conflict"
+2025-08-19 04:16:45,286 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 670, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4611, in get_updates
+    await self._post(
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 374, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-08-19 04:17:01,024 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 409 Conflict"
+2025-08-19 04:17:01,025 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 670, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4611, in get_updates
+    await self._post(
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 374, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-08-19 04:17:22,480 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 409 Conflict"
+2025-08-19 04:17:22,481 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 670, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4611, in get_updates
+    await self._post(
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 374, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-08-19 04:17:52,497 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 409 Conflict"
+2025-08-19 04:17:52,497 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 670, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4611, in get_updates
+    await self._post(
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 374, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-08-19 04:18:26,871 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 409 Conflict"
+2025-08-19 04:18:26,872 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 670, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4611, in get_updates
+    await self._post(
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 374, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-08-19 04:19:01,261 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7317862412:AAF_SaKYUI4kTqDamXElz8EQYA5v5EZD7AE/getUpdates "HTTP/1.1 409 Conflict"
+2025-08-19 04:19:01,262 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 115, in network_retry_loop
+    if not await do_action():
+           ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 108, in do_action
+    return action_cb_task.result()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 670, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4611, in get_updates
+    await self._post(
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/phishing_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 374, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
